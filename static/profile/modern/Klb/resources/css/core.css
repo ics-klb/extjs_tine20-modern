@@ -1,0 +1,945 @@
+/* ----- actions -------------------------------------------------------------*/
+.action_delegate {
+    background-image:url(../images/list-delegate.png) !important;
+}
+
+.action_add {
+    background-image:url(../images/oxygen/16x16/actions/list-add.png) !important;
+}
+.x-btn-medium .action_add {
+    background-image:url(../images/oxygen/22x22/actions/list-add.png) !important;
+}
+.x-btn-large .action_add {
+    background-image:url(../images/oxygen/32x32/actions/list-add.png) !important;
+}
+
+.action_remove {
+    background-image:url(../images/oxygen/16x16/actions/list-remove.png) !important;
+}
+.x-btn-medium .action_remove {
+    background-image:url(../images/oxygen/22x22/actions/list-remove.png) !important;
+}
+.x-btn-large .action_remove {
+    background-image:url(../images/oxygen/32x32/actions/list-remove.png) !important;
+}
+
+
+.action_edit {
+    background-image:url(../images/oxygen/16x16/actions/edit.png) !important;
+}
+.x-btn-medium .action_edit {
+    background-image:url(../images/oxygen/22x22/actions/edit.png) !important;
+}
+.x-btn-large .action_edit {
+    background-image:url(../images/oxygen/32x32/actions/edit.png) !important;
+}
+
+
+.action_editcopy {
+    background-image:url(../images/oxygen/16x16/actions/edit-copy.png) !important;
+}
+.x-btn-medium .action_editcopy {
+    background-image:url(../images/oxygen/22x22/actions/edit-copy.png) !important;
+}
+.x-btn-large .action_editcopy {
+    background-image:url(../images/oxygen/32x32/actions/edit-copy.png) !important;
+}
+
+
+.action_rename {
+    background-image:url(../images/oxygen/16x16/actions/document-properties.png) !important;
+}
+.x-btn-medium .action_rename {
+    background-image:url(../images/oxygen/22x22/actions/document-properties.png) !important;
+}
+.x-btn-large .action_rename {
+    background-image:url(../images/oxygen/32x32/actions/document-properties.png) !important;
+}
+
+.action_changecolor {
+    background-image:url(../images/oxygen/16x16/actions/color-line.png) !important;
+}
+.x-btn-medium .action_changecolor {
+    background-image:url(../images/oxygen/22x22/actions/color-line.png) !important;
+}
+.x-btn-large .action_changecolor {
+    background-image:url(../images/oxygen/32x32/actions/color-line.png) !important;
+}
+
+.action_toggleshared {
+    background-image:url(../images/oxygen/16x16/actions/get-hot-new-stuff.png) !important;
+}
+
+.action_delete {
+    background-image:url(../images/oxygen/16x16/actions/edit-delete.png) !important;
+}
+.x-btn-medium .action_delete {
+    background-image:url(../images/oxygen/22x22/actions/edit-delete.png) !important;
+}
+.x-btn-large .action_delete {
+    background-image:url(../images/oxygen/32x32/actions/edit-delete.png) !important;
+}
+
+.action_applyChanges {
+    background-image:url(../images/oxygen/16x16/actions/dialog-ok-apply.png) !important;
+}
+.x-btn-medium .action_applyChanges {
+    background-image:url(../images/oxygen/22x22/actions/dialog-ok-apply.png) !important;
+}
+.x-btn-large .action_applyChanges {
+    background-image:url(../images/oxygen/32x32/actions/dialog-ok-apply.png) !important;
+}
+
+
+.action_cancel {
+    background-image:url(../images/oxygen/16x16/actions/dialog-cancel.png) !important;
+}
+.x-btn-medium .action_cancel {
+    background-image:url(../images/oxygen/22x22/actions/dialog-cancel.png) !important;
+}
+.x-btn-large .action_cancel {
+    background-image:url(../images/oxygen/32x32/actions/dialog-cancel.png) !important;
+}
+
+
+.action_saveAndClose {
+    background-image:url(../images/oxygen/16x16/actions/dialog-ok.png) !important;
+}
+.x-btn-medium .action_saveAndClose {
+    background-image:url(../images/oxygen/22x22/actions/dialog-ok.png) !important;
+}
+.x-btn-large .action_saveAndClose {
+    background-image:url(../images/oxygen/32x32/actions/dialog-ok.png) !important;
+}
+
+.action_next {
+    background-image:url(../images/oxygen/16x16/actions/go-next.png) !important;
+}
+.x-btn-medium .action_next {
+    background-image:url(../images/oxygen/22x22/actions/go-next.png) !important;
+}
+.x-btn-large .action_next {
+    background-image:url(../images/oxygen/32x32/actions/go-next.png) !important;
+}
+
+.action_previous {
+    background-image:url(../images/oxygen/16x16/actions/go-previous.png) !important;
+}
+.x-btn-medium .action_previous {
+    background-image:url(../images/oxygen/22x22/actions/go-previous.png) !important;
+}
+.x-btn-large .action_previous {
+    background-image:url(../images/oxygen/32x32/actions/go-previous.png) !important;
+}
+
+.action_managePermissions {
+    background-image:url(../images/oxygen/16x16/actions/password.png) !important;
+}
+.x-btn-medium .action_managePermissions {
+    background-image:url(../images/oxygen/22x22/actions/password.png) !important;
+}
+.x-btn-large .action_managePermissions {
+    background-image:url(../images/oxygen/32x32/actions/password.png) !important;
+}
+
+.action_manageProperties {
+    background-image:url(../images/oxygen/16x16/actions/dialog-information.png) !important;
+}
+.x-btn-medium .action_manageProperties {
+    background-image:url(../images/oxygen/22x22/actions/dialog-information.png) !important;
+}
+.x-btn-large .action_manageProperties {
+    background-image:url(../images/oxygen/32x32/actions/dialog-information.png) !important;
+}
+
+.action_addContact {
+    background-image:url(../images/oxygen/16x16/actions/add-user.png) !important;
+}
+.x-btn-medium .action_addContact {
+    background-image:url(../images/oxygen/22x22/actions/add-user.png) !important;
+}
+.x-btn-large .action_addContact {
+    background-image:url(../images/oxygen/32x32/actions/add-user.png) !important;
+}
+
+
+.action_deleteContact {
+    background-image:url(../images/oxygen/16x16/actions/delete-user.png) !important;
+}
+.x-btn-medium .action_deleteContact {
+    background-image:url(../images/oxygen/22x22/actions/delete-user.png) !important;
+}
+.x-btn-large .action_deleteContact {
+    background-image:url(../images/oxygen/32x32/actions/delete-user.png) !important;
+}
+
+
+.action_exportAsPdf {
+    background-image:url(../images/oxygen/16x16/mimetypes/pdf.png) !important;
+}
+.x-btn-medium .action_exportAsPdf {
+    background-image:url(../images/oxygen/22x22/mimetypes/pdf.png) !important;
+}
+.x-btn-large .action_exportAsPdf {
+    background-image:url(../images/oxygen/32x32/mimetypes/pdf.png) !important;
+}
+
+
+.action_showArchived {
+    background-image:url(../images/oxygen/16x16/actions/ark-extract.png) !important;
+}
+.x-btn-medium .action_showArchived {
+    background-image:url(../images/oxygen/22x22/actions/ark-extract.png) !important;
+}
+.x-btn-large .action_showArchived {
+    background-image:url(../images/oxygen/32x32/actions/ark-extract.png) !important;
+}
+
+
+.action_logOut {
+    background-image:url(../images/oxygen/16x16/actions/system-shutdown.png) !important;
+}
+.x-btn-medium .action_logOut {
+    background-image:url(../images/oxygen/22x22/actions/system-shutdown.png) !important;
+}
+.x-btn-large .action_logOut {
+    background-image:url(../images/oxygen/32x32/actions/system-shutdown.png) !important;
+}
+
+.action_login {
+    background-image:url(../images/oxygen/16x16/actions/view-refresh.png) !important;
+}
+.x-btn-medium .action_login {
+    background-image:url(../images/oxygen/22x22/actions/view-refresh.png) !important;
+}
+.x-btn-large .action_login {
+    background-image:url(../images/oxygen/32x32/actions/view-refresh.png) !important;
+}
+
+.action_loadTutorial { 
+    background-image: url(../images/help-icon.png) !important;
+}
+
+.action_tag {
+    background-image:url(../images/oxygen/16x16/actions/rss-tag.png) !important;
+}
+.x-btn-medium .action_tag {
+    background-image:url(../images/oxygen/22x22/actions/rss-tag.png) !important;
+}
+.x-btn-large .action_tag {
+    background-image:url(../images/oxygen/32x32/actions/rss-tag.png) !important;
+}
+
+.action_tag_delete {
+    background-image:url(../images/oxygen/16x16/actions/rss-tag-delete.png) !important;
+}
+
+.action_uploadImage {
+    background-image:url(../images/oxygen/16x16/actions/insert-image.png) !important;
+}
+.x-btn-medium .action_uploadImage {
+    background-image:url(../images/oxygen/22x22/actions/insert-image.png) !important;
+}
+.x-btn-large .action_uploadImage {
+    background-image:url(../images/oxygen/32x32/actions/insert-image.png) !important;
+}
+
+
+.action_cropImage {
+    background-image:url(../images/oxygen/16x16/actions/select-rectangular.png) !important;
+}
+.x-btn-medium .action_cropImage {
+    background-image:url(../images/oxygen/22x22/actions/select-rectangular.png) !important;
+}
+.x-btn-large .action_cropImage {
+    background-image:url(../images/oxygen/32x32/actions/select-rectangular.png) !important;
+}
+
+
+.action_originalImage {
+    background-image:url(../images/oxygen/16x16/mimetypes/image-jpeg2000.png) !important;
+}
+.x-btn-medium .action_originalImage {
+    background-image:url(../images/oxygen/22x22/mimetypes/image-jpeg2000.png) !important;
+}
+.x-btn-large .action_originalImage {
+    background-image:url(../images/oxygen/32x32/mimetypes/image-jpeg2000.png) !important;
+}
+
+
+.action_export {
+    background-image:url(../images/oxygen/16x16/actions/file-export.png) !important;
+}
+.x-btn-medium .action_export {
+    background-image:url(../images/oxygen/22x22/actions/file-export.png) !important;
+}
+.x-btn-large .action_export {
+    background-image:url(../images/oxygen/32x32/actions/file-export.png) !important;
+}
+
+
+.action_import {
+    background-image:url(../images/oxygen/16x16/actions/view-sort-ascending.png) !important;
+}
+.x-btn-medium .action_import {
+    background-image:url(../images/oxygen/22x22/actions/view-sort-ascending.png) !important;
+}
+.x-btn-large .action_import {
+    background-image:url(../images/oxygen/32x32/actions/view-sort-ascending.png) !important;
+}
+
+
+.action_about {
+    background-image:url(../images/oxygen/16x16/actions/dialog-information.png) !important;
+}
+.x-btn-medium .action_about {
+    background-image:url(../images/oxygen/22x22/actions/dialog-information.png) !important;
+}
+.x-btn-large .action_about {
+    background-image:url(../images/oxygen/32x32/actions/dialog-information.png) !important;
+}
+
+
+.action_adminMode {
+    background-image:url(../images/oxygen/16x16/apps/systemtray.png) !important;
+}
+.x-btn-medium .action_adminMode {
+    background-image:url(../images/oxygen/22x22/apps/systemtray.png) !important;
+}
+.x-btn-large .action_adminMode {
+    background-image:url(../images/oxygen/32x32/apps/systemtray.png) !important;
+}
+
+
+.action_composeEmail {
+    background-image:url(../images/oxygen/16x16/apps/kmail.png) !important;
+}
+.x-btn-medium .action_composeEmail {
+    background-image:url(../images/oxygen/22x22/apps/kmail.png) !important;
+}
+.x-btn-large .action_composeEmail {
+    background-image:url(../images/oxygen/32x32/apps/kmail.png) !important;
+}
+
+.action_print {
+    background-image:url(../images/oxygen/16x16/actions/document-print.png) !important;
+}
+.x-btn-medium .action_print {
+    background-image:url(../images/oxygen/22x22/actions/document-print.png) !important;
+}
+.x-btn-large .action_print {
+    background-image:url(../images/oxygen/32x32/actions/document-print.png) !important;
+}
+
+.action_printPreview {
+    background-image:url(../images/oxygen/16x16/actions/document-print-preview.png) !important;
+}
+.x-btn-medium .action_printPreview {
+    background-image:url(../images/oxygen/22x22/actions/document-print-preview.png) !important;
+}
+.x-btn-large .action_printPreview {
+    background-image:url(../images/oxygen/32x32/actions/document-print-preview.png) !important;
+}
+
+.action_resolveDuplicates {
+    background-image: url(../images/oxygen/16x16/actions/file-revert.png) !important;
+}
+
+.tinebase-action-export-xls {
+    background-image:url(../images/oxygen/16x16/mimetypes/application-vnd.ms-excel.png) !important;
+}
+.x-btn-medium .tinebase-action-export-xls {
+    background-image:url(../images/oxygen/22x22/mimetypes/application-vnd.ms-excel.png) !important;
+}
+.x-btn-large .tinebase-action-export-xls {
+    background-image:url(../images/oxygen/32x32/mimetypes/application-vnd.ms-excel.png) !important;
+}
+
+
+.tinebase-action-export-ods {
+    background-image:url(../images/oxygen/16x16/mimetypes/application-vnd.oasis.opendocument.spreadsheet.png) !important;
+}
+.x-btn-medium .tinebase-action-export-ods {
+    background-image:url(../images/oxygen/22x22/mimetypes/application-vnd.oasis.opendocument.spreadsheet.png) !important;
+}
+.x-btn-large .tinebase-action-export-ods {
+    background-image:url(../images/oxygen/32x32/mimetypes/application-vnd.oasis.opendocument.spreadsheet.png) !important;
+}
+
+
+.tinebase-action-export-csv {
+    background-image:url(../images/oxygen/16x16/mimetypes/text-csv.png) !important;
+}
+.x-btn-medium .tinebase-action-export-csv {
+    background-image:url(../images/oxygen/22x22/mimetypes/text-csv.png) !important;
+}
+.x-btn-large .tinebase-action-export-csv {
+    background-image:url(../images/oxygen/32x32/mimetypes/text-csv.png) !important;
+}
+
+.tinebase-action-debug-console {
+    background-image:url(../images/oxygen/16x16/apps/utilities-terminal.png) !important;
+}
+
+
+/* ----- tree classes --------------------------------------------------------*/
+.tinebase-tree-drop-move  .x-dd-drop-icon {
+    background-image:url(../images/oxygen/16x16/places/link.png) !important;
+}
+
+.tinebase-tree-hide-collapsetool .x-tree-ec-icon {
+    background: 0;
+}
+
+.tinebase-westpanel-node-favorite img.x-tree-node-icon {
+    background-image:url(../images/oxygen/16x16/actions/knewstuff.png);
+}
+
+.tinebase-westpanel-node-favorite-shared img.x-tree-node-icon {
+    background-image:url(../images/oxygen/16x16/actions/get-hot-new-stuff.png);
+}
+
+.action-tinebase-favorite {
+    background-image:url(../images/oxygen/16x16/actions/knewstuff.png) !important;
+}
+
+/* ----- login dialog --------------------------------------------------------*/
+.tb-login-panel form {
+    padding: 20px 10px 20px 20px;
+}
+
+.tb-login-lobobox {
+    text-align:right;
+    height: 60px;
+}
+
+.tb-login-big-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    line-height: 35px;
+}
+
+.tb-login-logo {
+ }
+
+.tb-login-button-spacer {
+    height: 30px;
+}
+
+.tb-login-infosection {
+    padding-left: 20px;
+}
+
+.tb-login-infosection {
+    color: gray;
+    line-height:17px;
+    /*margin-top:-12px;*/
+}
+
+.tb-login-infosection a {
+    text-decoration: none;
+    font-style: normal;
+    color: #1E78AD;
+}
+
+.tb-login-infosection .tb-login-surveypanel {
+    padding-top: 20px;
+}
+
+/* ----- about dialog --------------------------------------------------------*/
+.tb-about-dlg {
+    text-align: center;
+}
+.tb-about-img {
+    margin-top: 10px;
+}
+.tb-about-version {
+    margin-top: 50px;
+    font-weight: bold;
+}
+.tb-about-build {
+    font-size: smaller;
+}
+.tb-about-copyright {
+    margin-top: 50px;
+}
+
+.tb-about-credits-license {
+    margin-top: 10px;
+}
+
+.tb-about-whatsnew p {
+    background: transparent url(../images/oxygen/16x16/actions/dialog-information.png) left top no-repeat;
+    padding: 2px 0 2px 20px;
+}
+
+/* -------- tags renderer ------------------------------------------------------------*/
+.tb-grid-tags {
+    width: 8px; 
+    height: 8px; 
+    border: 1px solid black; 
+    float: left;
+    margin-right: 2px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+
+.ext-gecko .tb-grid-tags {
+    -moz-border-radius: 5px;
+    margin-top: 2px;
+}
+
+.x-menu-item-text .tb-grid-tags {
+    margin-top: 4px;
+}
+
+.x-menu-item-text .x-widget-tag-tagitem-text {
+    line-height: 16px;
+}
+
+/* ----- account renderer ------------------------------------------------------------*/
+.renderer {
+    width: 12px;
+    float: left;
+    padding-left: 5px;
+}
+
+.renderer_accountUserIcon {
+    background-image:url(../images/oxygen/16x16/actions/user-female.png) !important;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.renderer_accountGroupIcon {
+    background-image:url(../images/oxygen/16x16/actions/users.png) !important;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.renderer_accountGroupmemberIcon {
+    background-image:url(../images/groupmember.png) !important;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.renderer_accountContactIcon {
+    background-image:url(../images/oxygen/16x16/actions/user.png) !important;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+
+.tinebase-accounttype-user {
+    background-image:url(../images/oxygen/16x16/actions/user-female.png) !important;
+}
+.x-btn-medium .tinebase-accounttype-user {
+    background-image:url(../images/oxygen/22x22/actions/user-female.png) !important;
+}
+.x-btn-large .tinebase-accounttype-user {
+    background-image:url(../images/oxygen/32x32/actions/user-female.png) !important;
+}
+
+.tinebase-accounttype-group {
+    background-image:url(../images/oxygen/16x16/actions/users.png) !important;
+}
+.x-btn-medium .tinebase-accounttype-group {
+    background-image:url(../images/oxygen/22x22/actions/users.png) !important;
+}
+.x-btn-large .tinebase-accounttype-group {
+    background-image:url(../images/oxygen/32x32/actions/users.png) !important;
+}
+
+.tinebase-accounttype-addanyone {
+    background-image:url(../images/oxygen/16x16/actions/users.png) !important;
+}
+.x-btn-medium .tinebase-accounttype-addanyone {
+    background-image:url(../images/oxygen/22x22/actions/users.png) !important;
+}
+.x-btn-large .tinebase-accounttype-addanyone {
+    background-image:url(../images/oxygen/32x32/actions/users.png) !important;
+}
+
+/* ----- filemanager ------------------------------------------------------------*/
+.filemgrs_filemgrIcon {
+   background-image:url(../images/oxygen/16x16/actions/browser-go.png) !important;
+}
+/* ----- notes ------------------------------------------------------------*/
+.notes_noteIcon {
+   background-image:url(../images/oxygen/16x16/actions/note.png) !important;
+}
+.x-btn-medium .notes_noteIcon {
+   background-image:url(../images/oxygen/22x22/actions/note.png) !important;
+}
+.x-btn-large .notes_noteIcon {
+   background-image:url(../images/oxygen/32x32/actions/note.png) !important;
+}
+
+.notes_telephoneIcon {
+   background-image:url(../images/oxygen/16x16/apps/kcall.png) !important;
+}
+.x-btn-medium .notes_telephoneIcon {
+   background-image:url(../images/oxygen/22x22/apps/kcall.png) !important;
+}
+.x-btn-large .notes_telephoneIcon {
+   background-image:url(../images/oxygen/32x32/apps/kcall.png) !important;
+}
+
+.notes_emailIcon {
+   background-image:url(../images/oxygen/16x16/actions/kontact-mail.png) !important;
+}
+.x-btn-medium .notes_emailIcon {
+   background-image:url(../images/oxygen/22x22/actions/kontact-mail.png) !important;
+}
+.x-btn-large .notes_emailIcon {
+   background-image:url(../images/oxygen/32x32/actions/kontact-mail.png) !important;
+}
+
+.descriptionIcon {
+   background-image:url(../images/oxygen/16x16/apps/kwrite.png) !important;
+}
+.x-btn-medium .descriptionIcon {
+   background-image:url(../images/oxygen/22x22/apps/kwrite.png) !important;
+}
+.x-btn-large .descriptionIcon {
+   background-image:url(../images/oxygen/32x32/apps/kwrite.png) !important;
+}
+
+/* ----- mainmenu ------------------------------------------------------------*/
+/*
+.tine-mainscreen-mainmenu .x-toolbar {
+    background-image: url(../images/tbar-menu-bg.gif);
+    border: 0;
+    margin-top: -1px;
+    height: 18px;
+}
+*/
+
+.tine-mainscreen-mainmenu .x-toolbar {
+    background-color: #EBF3FD;
+    border: none;
+    background-image: url(../images/apptabs-bg.png);
+}
+
+.tine-mainscreen-mainmenu .x-toolbar .x-btn td {
+    background: none;
+    border: none;
+}
+
+.tine-mainscreen-mainmenu .x-toolbar-ct {
+    margin-top: -2px;
+}
+
+.tine-mainscreen-mainmenu .x-btn-over td.x-btn-mc,
+.tine-mainscreen-mainmenu .x-btn-over td.x-btn-mc button{
+    text-decoration: underline;
+}
+
+.tine-favicon {
+    background-image:url(../images/favicon.png) !important;
+}
+
+.tine-mainscreen-apptabs .x-tab-strip-wrap ul.x-tab-strip-top {
+    background-color:#EBF3FD;
+    background-image: url(../images/apptabs-bg.png);
+    border-bottom-color:#8db2e3;
+    background-position: 0px -20px;
+}
+
+.tine-mainscreen-apptabs .x-tab-panel-header {
+    border: none;
+}
+
+/*
+.tine-mainscreen-apptabs .x-tab-strip-wrap {
+    padding-top: 2px;
+}
+*/
+
+.tine-mainscreen-apptabspanel-menu-tabel .x-tab-left {
+    background-image: url(../images/tabs_sprite_slope_right.gif);
+    padding-right: 24px;
+}
+
+.tine-mainscreen-apptabspanel-menu-tabel {
+    margin-right: -10px;
+}
+
+.x-tab-strip .tine-mainscreen-apptabspanel-menu-tabel span.x-tab-strip-text {
+    padding-right: 10px;
+}
+
+.x-tab-strip li.tine-mainscreen-apptabspanel-menu-tabel a.x-tab-strip-close,
+.x-tab-strip li.tine-mainscreen-apptabspanel-menu-tabel a.x-tab-strip-close:hover {
+    background-image:url("../../library/ExtJS/v3.1.1/resources/images/default/button/arrow.gif");
+    top: 6px;
+    right: 19px;
+}
+
+/* ----- appchooser panel-----------------------------------------------------*/
+.app-panel-title {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 7px;
+}
+.app-panel-header-active {
+    background:transparent url(../../library/ExtJS/v3.1.1/resources/images/default/panel/light-hd.gif) repeat-x scroll 0pt -9px;
+    /*background:#EBF3FD url(../../library/ExtJS/v3.1.1/resources/images/default/grid/grid3-hrow-over.gif) repeat-x scroll left bottom;*/
+}
+.app-panel-header-over {
+    /*background:transparent url(../../library/ExtJS/v3.1.1/resources/images/default/panel/light-hd.gif) repeat-x scroll 0pt -9px;*/
+    background:#EBF3FD url(../../library/ExtJS/v3.1.1/resources/images/default/grid/grid3-hrow-over.gif) repeat-x scroll left bottom;
+}
+
+.app-panel-appicon-text {
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    overflow: hidden;
+}
+
+.app-panel-apptitle-text {
+    margin-left: 5px;
+}
+
+/******* grid row classes *********/
+.grid_row_enabled td{
+    font-weight: bold;
+    /* background-color: '#b5efc8'; */
+}
+
+.grid_row_disabled td{
+    /* background-color: '#efb5b5'; */
+}
+
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: nowrap;
+}
+
+.tw-activities-grid .x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: normal;
+}
+
+.tine-grid-row-nolongerinfilter td {
+    color: #aaaaaa;
+}
+
+/******* grid cell classes *********/
+
+.tine-grid-cell-hint {
+    background-image:url("../../library/ExtJS/v3.1.1/resources/images/default/button/arrow.gif");
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 10px;
+}
+
+.tine-grid-cell-no-dirty {
+    background-image:url("../../library/ExtJS/v3.1.1/resources/images/default/s.gif");
+}
+
+.tine-editorgrid-row-invalid {
+    border: 1px dotted red;
+}
+
+.tine-duplicateresolve-keepvalue {
+    color: #006600;
+}
+
+.tine-duplicateresolve-discardvalue {
+    color: #660000;
+}
+
+.tine-duplicateresolve-adoptedvalue {
+    color: #666666;
+}
+
+.tine-recordclass-gridicon {
+    background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin: -2px 5px -2px 0;
+    float:left;
+}
+
+/******** downloads ***********/
+
+.tinebase-download-link{
+    cursor: pointer;
+    color: blue;
+}
+
+span:hover.tinebase-download-link {
+    color: #4444ff;
+}
+
+/********* uploads ************/
+
+.x-tinebase-uploading {
+    background-image:url(../../library/ExtJS/v3.1.1/resources/images/default/grid/wait.gif) !important;
+}
+
+.x-tinebase-uploadrow .x-grid3-cell-inner {
+    background-image:url(../../library/ExtJS/v3.1.1/resources/images/default/grid/wait.gif);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+
+.x-tinebase-uploadpaused .x-grid3-cell-inner {
+    background-image:url(../images/oxygen/16x16/actions/media-playback-pause.png);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+
+.x-tinebase-uploading .x-grid3-cell-inner {
+    background-image:url(../images/oxygen/16x16/actions/media-playback-start.png);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+
+.x-tinebase-uploadcomplete .x-grid3-cell-inner {
+    background-image:url(../images/oxygen/16x16/actions/dialog-ok-apply.png);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+
+/******** email ***********/
+
+a:hover.tinebase-email-link {
+    color: #4444ff;
+}
+
+.tinebase-addtocontacts-link{
+    cursor: pointer;
+    color: blue;
+}
+
+span:hover.tinebase-addtocontacts-link {
+    color: #4444ff;
+}
+
+.tinebase-showheaders-link{
+    cursor: pointer;
+    color: blue;
+}
+
+span:hover.tinebase-showheaders-link {
+    color: #4444ff;
+}
+
+.tine-keyfield-icon {
+    width: 12px;
+    height: 12px;
+    vertical-align: text-bottom;
+    padding-right: 4px;
+}
+
+.x-grid .tine-keyfield-icon {
+    vertical-align: text-top;
+}
+
+/*.x-combo-list-item .tine-keyfield-icon {
+    padding-right: 4px;
+}*/
+
+.search-item {border: 1px solid white}
+
+/* multiple edit dialog */
+    
+.tinebase-editmultipledialog-noneedit, 
+input.tinebase-editmultipledialog-noneedit, 
+textarea.tinebase-editmultipledialog-noneedit {
+    background-color: #f4f1d3;
+    background-image:none!important;
+    }
+    
+.tinebase-editmultipledialog-clearer {
+    background: transparent url(../../images/tine20/form/clear-trigger.gif) -16px top no-repeat;
+    border-bottom:1px solid #7eadd9; 
+    height:18px;
+    width:18px;
+    display:block;
+    position:absolute;
+    z-index:9;
+    }
+    
+.tinebase-editmultipledialog-clearer.hidden {
+    border-bottom:none; 
+    height:18px; 
+    background-image: url(../images/default/s.gif);
+    }
+    
+.tinebase-editmultipledialog-clearer.undo {
+    background: transparent url(../images/oxygen/16x16/actions/edit-undo-grey.png) 0 3px no-repeat;
+    border-bottom: none;   
+    }
+
+.tinebase-editmultipledialog-clearer.undo.over {
+    background: transparent url(../images/oxygen/16x16/actions/edit-undo.png) 0 3px no-repeat;
+    }
+    
+.tinebase-editmultipledialog-dirty {
+    position:absolute;
+    left:0;
+    background-image: url(../images/default/grid/dirty.gif);
+    background-repeat: no-repeat;
+}    
+    
+.tinebase-editmultipledialog-clearer.click {background-position: -33px 0}
+
+.tinebase-editmultipledialog-clearer.over {background-position: -67px 0}
+
+.tinebase-editmultipledialog-dirtycheck {
+    background-color: #F4F1D3; /* #F9F9A3 */
+    border: 1px solid #B5B8C8;
+    padding: 2px 2px 1px 2px;
+    border-radius: 3px;
+}
+
+.tine-wordbox {
+    border: 1px solid gray;
+    margin-left: 3px;
+    border-radius: 2px;
+    padding: 0px 5px;
+    background-color: white;
+}
+
+/* token mode edit dialog */
+.tinebase-tokenedit-textfield {
+    color: white;
+}
+
+.tinebase-tokenedit-tokenbox {
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.tinebase-tokenedit-token {
+    border: 1px solid gray;
+    margin-right: 3px;
+}
+
+.tinebase-tokenedit-tokenbox-area .tinebase-tokenedit-token {
+    display: inline-block;
+    line-height: 13px;
+}
+
+.tinebase-tokenedit-token-selected {
+    background-color: #FFFFAE;
+}
+
+.tinebase-tokenedit-position {
+    display: none;
+    width: 0px;
+    border: 1px solid gray;
+    margin-right: 3px;
+    line-height: 13px;
+    overflow: hidden;
+}
+
+.tb-version-tinepanel {
+    display: none;
+}

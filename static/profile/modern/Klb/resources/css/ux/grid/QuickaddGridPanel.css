@@ -1,0 +1,14 @@
+.x-grid3-quickadd .x-grid3-header {
+    background: #f9f9f9 url(../../../../images/grid3-dblhrow.gif) repeat-x left -2px;
+}
+
+.x-grid3-quickadd .new-row {
+    height:20px;
+}
+.x-grid3-quickadd .new-row .x-small-editor {
+    overflow:hidden;
+    width:100%;
+}
+.x-grid3-quickadd .new-row .x-small-editor input {
+    font-size:11px;
+}

@@ -1,0 +1,19 @@
+/**
+ * @class Ext.ux.layout.ResponsiveColumn
+ */
+/**
+ * @var {number}
+ * The space between items in a responsive column layout
+ */
+/**
+ * Configures the width of an item in a responsive column layout
+ *
+ * @param {number} [$width=100%]
+ * The width as a percentage
+ *
+ * @param {number} [$spacing=$responsivecolumn-item-spacing]
+ * The space between items.  For best results all items in the same responsive column
+ * layout should use the same value.
+ */
+
+/*# sourceMappingURL=ResponsiveColumn.css.map */

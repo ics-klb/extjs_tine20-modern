@@ -1,0 +1,90 @@
+.action_delThisFilter {
+    /*background-image:url(../../../images/oxygen/16x16/actions/edit-clear-locationbar-rtl.png) !important;*/
+    background-image:url(../../../images/minus-gray.png) !important;
+}
+
+.action_delAllFilter {
+    background-image:url(../../../images/x-gray.png) !important;
+}
+
+.action_addFilter {
+    background-image:url(../../../images/plus-gray.png) !important;
+}
+
+.action_saveFilter {
+    background-image:url(../../../images/oxygen/16x16/actions/document-save.png) !important;
+}
+
+.action_startFilter {
+    background-image:url(../../../images/oxygen/16x16/actions/edit-find.png) !important;
+}
+
+.x-panel-bwrap .tw-filtertoolbar  {
+	background-image: none;
+	background-color: #E5EDF8;
+}
+
+
+.tw-filtertoolbar  td { 
+	padding: 0px 5px 0px;
+}
+
+.tw-filtertoolbar .tw-ftb-frow-pbutton { 
+    padding: 0px 0px 0px;
+}
+
+.tw-filtertoolbar .tw-ftb-frow-mbutton { 
+    padding: 0px 0px 0px;
+}
+
+.tw-filtertoolbar .tw-ftb-frow-prefix {
+	text-align: right;
+}
+
+/* fix Ext.Button Layout */
+.tw-filtertoolbar .x-btn td {
+    padding: 0px;
+}
+.tw-filtertoolbar .x-btn-icon .x-btn-center {
+    padding:1px;
+}
+
+/* criteria tabls 
+.tw-ftb-criteria-tabs .x-tab-strip-wrap {
+    background-color: #E5EDF8;
+}
+
+.tw-ftb-criteria-tabs .x-tab-strip-wrap ul {
+    border-bottom-color: #CEDFF5;
+}
+*/
+
+/* structure treepanel
+.tw-ftb-filterstructure-treepanel .x-panel-tbar-noborder .x-toolbar {
+    background-image: none;
+    background-color: #E5EDF8;
+    border-color: #E5EDF8;
+}
+.tw-ftb-filterstructure-treepanel .x-panel-body {
+    background-color: #E5EDF8;
+    border-color: #E5EDF8;
+}
+*/
+
+.tw-ftb-filterstructure-treepanel .x-panel-tbar-noborder .x-toolbar,
+.tw-ftb-filterstructure-treepanel .x-panel-body,
+.tw-ftb-filterpanel .x-panel-body,
+.tw-ftb-filterpanel .x-toolbar {
+    background-image: none;
+    background-color: #E5EDF8;
+    border-bottom: none;
+}
+
+.tw-ftb-filterpanel .ux-arrowcollapse .x-tool-toggle {
+    background-color: #E5EDF8;
+}
+/*
+.tw-filtertoolbar .fw-ftb-actionrow td { 
+    padding: 0px 5px 1px;
+}
+*/

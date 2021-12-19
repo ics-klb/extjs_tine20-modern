@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot') format('embedded-opentype'),
+            url('../fonts/icomoon.woff') format('woff'),
+            url('../fonts/icomoon.ttf') format('truetype'),
+            url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+        font-family: 'icomoon';
+        content: attr(data-icon);
+        speak: none;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-bars:before, .icon-users:before, .icon-diamonds:before, .icon-bars-2:before, .icon-settings:before, .icon-calendar:before, .icon-user:before, .icon-truck:before, .icon-airplane:before, .icon-machine:before, .icon-cogs:before, .icon-backward:before, .icon-forward:before, .icon-plus:before, .icon-minus:before, .icon-attachment:before, .icon-file:before, .icon-cog-2:before {
+        font-family: 'icomoon';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+}
+.icon-bars:before {
+        content: "\e000";
+}
+.icon-users:before {
+        content: "\e001";
+}
+.icon-diamonds:before {
+        content: "\e002";
+}
+.icon-bars-2:before {
+        content: "\e003";
+}
+.icon-settings:before {
+        content: "\e005";
+}
+.icon-calendar:before {
+        content: "\e004";
+}
+.icon-user:before {
+        content: "\e006";
+}
+.icon-truck:before {
+        content: "\e007";
+}
+.icon-airplane:before {
+        content: "\e008";
+}
+.icon-machine:before {
+        content: "\e009";
+}
+.icon-cogs:before {
+        content: "\e00a";
+}
+.icon-backward:before {
+        content: "\e00b";
+}
+.icon-forward:before {
+        content: "\e00c";
+}
+.icon-plus:before {
+        content: "\e00d";
+}
+.icon-minus:before {
+        content: "\e00e";
+}
+.icon-attachment:before {
+        content: "\e00f";
+}
+.icon-file:before {
+        content: "\e010";
+}
+.icon-cog-2:before {
+        content: "\e011";
+}
+.histogram-icon div { display: none; }
+
+.array-grid-checked-col:before {
+    font: 18px/1 FontAwesome;
+    color: #81cb31;
+    content: "\f058"
+}
+.array-grid-sell-col:before {
+    font: 18px/1 FontAwesome;
+    color: #dd6550;
+    content: "\f056"
+}
+.array-grid-alert-col:before {
+    font: 18px/1 FontAwesome;
+    color: #ffc839;
+    content: "\f071"
+}
+.cell-editing-delete-row:before {
+    font: 16px/1 FontAwesome;
+    color: #dd6550;
+    content: "\f056"
+}

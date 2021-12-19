@@ -1,0 +1,60 @@
+/*
+Error: Undefined variable: "$prefix".
+        on line 537 of TreeItem.scss
+
+532: //------------------------------------------------------------------------------------
+533: // Since the treelist-ui-body mixin can only style the child elements of the treelist,
+534: // we have to style x-treelist here. Further, styles that are ui-independent are also
+535: // placed here.
+536: //
+537: .#{$prefix}treelist {
+538:     background-color: $treelist-background-color;
+539:     // Some browsers (FF, IE) don't support reading background-position-x
+540:     background-position: $treelist-item-icon-width 0%;
+541:     @if $enable-big {
+542:         .x-big & {
+
+Backtrace:
+TreeItem.scss:537
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/interpolation.rb:167:in `_perform'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:551:in `block in run_interp_no_strip'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:549:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:549:in `run_interp_no_strip'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:556:in `run_interp'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:419:in `visit_rule'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/var/lib/gems/2.3.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$prefix\".\A         on line 537 of TreeItem.scss\A \A 532: //------------------------------------------------------------------------------------\A 533: // Since the treelist-ui-body mixin can only style the child elements of the treelist,\A 534: // we have to style x-treelist here. Further, styles that are ui-independent are also\A 535: // placed here.\A 536: //\A 537: .#{$prefix}treelist {\A 538:     background-color: $treelist-background-color;\A 539:     // Some browsers (FF, IE) don't support reading background-position-x\A 540:     background-position: $treelist-item-icon-width 0%;\A 541:     @if $enable-big {\A 542:         .x-big & {"; }
